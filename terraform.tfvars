@@ -1,0 +1,5 @@
+region      = "eu-north-1"
+prefix      = "MK"
+environment = "MK_Test"
+#placeholder = "placedog.net"
+#placeholder_id = "23"

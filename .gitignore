@@ -1,0 +1,16 @@
+# Block your private SSH credentials key file from leaking online
+*.pem
+*.pub
+mk-eu-key*
+MK-ssh-key
+
+# Block generated state files containing system architecture secrets
+*.tfstate
+*.tfstate.backup
+
+# Block the local hidden Terraform cache directory
+.terraform/
+
+# Block your variable secret files if you use them
+*.tfvars
+*.tfvars.json

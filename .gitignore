@@ -1,8 +1,12 @@
 # Block your private SSH credentials key file from leaking online
 *.pem
 *.pub
+
 mk-eu-key*
-MK-ssh-key
+mk-eu-key.pub
+MK-ssh-key*
+MK-ssh-key.pub
+
 
 # Block generated state files containing system architecture secrets
 *.tfstate

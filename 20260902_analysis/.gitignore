@@ -1,0 +1,15 @@
+# Block your secret file name
+*.pub
+*.pem
+
+# Block key files
+mk-eu-key*
+mk-eu-key.pub
+MK-ssh-key*
+MK-ssh-key.pub
+
+
+# Block heavy provider binaries and state architecture logs
+.terraform/
+*.tfstate
+*.tfstate.backup
